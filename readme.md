@@ -1,1 +1,1 @@
-Falta una parte en la vista view, para redirigir
+Falta una parte en la vista info, para redirigir
