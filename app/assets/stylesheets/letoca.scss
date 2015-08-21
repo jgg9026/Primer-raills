@@ -1,0 +1,47 @@
+// Place all the styles related to the letoca controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+	
+	
+}
+
+.screen{
+	max-width: 960px;
+	position: absolute;
+	background-color: white;
+}
+
+.toca{
+	position: relative;
+	max-width: 700px;
+	height: auto;
+	background-color: white;
+	text-align: center;
+	display: block;
+	content-align: center;
+	border-style: solid;
+    border-width: medium;
+    border-radius: 25px;
+    border-color: blue;
+    left: 1vw;
+    font-family: Consolas, monaco, monospace;
+	font-style: normal;
+	font-variant: normal;	
+    display:table-cell;
+    
+}
+.paciente{
+	max-width: 600px;
+	max-height: 400px;
+	padding: 20px;
+
+}
+.rbutton{
+	font-family: Consolas, monaco, monospace;
+	font-style: normal;
+	font-variant: normal;
+}
+.imgcont{
+	max-width: 650px;
+}

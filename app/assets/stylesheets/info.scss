@@ -1,0 +1,79 @@
+// Place all the styles related to the info controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+
+
+}
+
+.screen1{
+	position: absolute;
+	width: 90%;
+	height: 100%;
+	background-image: url("winter.jpg");
+	
+   
+	display: block;
+	left: 5%;
+	text-align: center;
+	color: white
+	
+}
+.titulo{
+	 font-family: Consolas, monaco, monospace;
+	font-style: normal;
+	font-variant: normal;	
+    display:table-cell;
+    opacity: 1;
+}
+
+.info{
+	display: inline-block;
+	position: relative;
+	left: 1%;
+	width: 70%;
+	margin-top: 35%;
+	height: auto;
+	text-align: center;
+	border-style: solid;
+    border-width: medium;
+    border-radius: 25px;
+    border-color: white;
+    background-color: rgba(255,255,255,0.6);
+    
+}
+.mail, .pass{
+	display: inline-block;
+	padding: 5px;
+	font-family: Consolas, monaco, monospace;
+	font-style: normal;
+	font-variant: normal;
+	font-size: 14px;
+	border-radius: 12px;
+	border-color: white;
+	
+	
+	}
+
+.envio{
+	display: inline-block;
+	font-family: Consolas, monaco, monospace;
+	font-style: normal;
+	font-variant: normal;
+	font-size: 22px;
+	margin-left: 20px;
+	
+
+}
+label{
+	color: black;
+	font-family: Consolas, monaco, monospace;
+	font-style: normal;
+	font-variant: normal;
+	font-size: 14px;
+	margin: 10px;
+	margin-left: 3%;
+	
+
+
+}

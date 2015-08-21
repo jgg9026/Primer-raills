@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<div class ="screen1">
+		<center>	<h1 class="titulo">Desafio Latam</h1></center>
+		<div class="info">
+			<%= form_tag('/info', method: :get) do %>
+			  <%= label_tag("email: ") %>
+			  <%= email_field(:address, "email", :placeholder => "example@server.com", class: "mail") %>
+			  <%= label_tag("password: ") %>
+			  <%= password_field_tag(:password, "password", value: "", :placeholder => "Password", class: "pass") %>
+			  <%= submit_tag("Enviar", class: "envio") %>
+			<% end %>
+			<%= if params[:mail].to_s == @correo || params[:password].to_s == @pass
+			flash.now[:notice] = 'Bienvenido'
+		else
+  			flash.now[:alert] = 'Informacion Incorrecta'
+		end %>
+		</div>
+	</div>
+
+</body>
+</html>

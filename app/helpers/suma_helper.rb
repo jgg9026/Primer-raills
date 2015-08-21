@@ -1,0 +1,2 @@
+module SumaHelper
+end

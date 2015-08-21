@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+
+	<div class="suma">
+		<%= form_tag("/suma", method: "get") do %>
+  <%= label_tag(:q, "First number") %>
+  <%= text_field_tag(:q) %>
+  <%= label_tag(:q, "Second number") %>
+  <%= text_field_tag(:q) %>
+  <%= submit_tag("result") %>
+<% end %>
+	</div>
+	
+	
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,2 @@
+module MosaicoHelper
+end

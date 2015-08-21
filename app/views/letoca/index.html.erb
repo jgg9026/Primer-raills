@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+</head>
+<body>
+	<div calss="screen">
+		<center><div class="toca">
+			<h3>Le toca a:</h3>
+			<h3><%=  @estudents[@pos][:nombre]  %></h2>
+			<INPUT class="rbutton" TYPE="button" onClick="history.go(0)" VALUE="Refresh">
+			<!-- <h4><%=  @pos%></h4>-->
+			<div class="imgcont">
+			<%= image_tag(@estudents[@pos][:url_img], class: "paciente") %>
+			</div>
+			</div></center>
+	</div>
+</body>
+</html>
+
+

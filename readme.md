@@ -1,0 +1,1 @@
+Falta una parte en la vista view, para redirigir
